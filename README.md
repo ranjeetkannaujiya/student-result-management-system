@@ -54,33 +54,36 @@ A comprehensive desktop application built with Python and Tkinter for managing s
 
 ```
 RMS/
-├── login.py              # Login and authentication window
-├── register.py           # User registration window
-├── dashboard.py          # Main application dashboard
-├── course.py             # Course management module
-├── student.py            # Student management module
-├── result.py             # Result entry module
-├── report.py             # Result viewing and deletion module
-│
-├── database/             # Database initialization script 
-│   └── create_db.py 
-│      
-├── assets/               # UI images and icons
-│   ├── bgimg.png
-│   ├── side.png
-│   ├── logo_p.png
-│   ├── student.png
-│   ├── result2.png
-│   ├── course-page.png        # Screenshot course page
-│   ├── home-page.png          # Screenshot home page
-│   ├── login-page.png         # Screenshot login page
-│   ├── logout-page.png        # Screenshot logout page
-│   ├── register-page.png      # Screenshot register page
-│   ├── result-page.png        # Screenshot result page
-│   ├── student-page.png       # Screenshot student page
-│   └── view-student-page.png      # Screenshot view student result page
-│
-└── rms.db               # SQLite database (created automatically)
+├── login.py         # Login and authentication window
+├── register.py      # User registration window
+├── dashboard.py     # Main application dashboard
+├── course.py        # Course management module
+├── student.py       # Student management module
+├── result.py        # Result entry module
+├── report.py        # Result viewing and deletion module
+
+├── database/
+│ └── create_db.py   # Database initialization script
+
+├── assets/      # UI images and icons
+│ ├── bgimg.png
+│ ├── side.png
+│ ├── logo_p.png
+│ ├── student.png
+│ ├── result2.png
+
+├── screenshots/    # Project output screenshots
+│ ├── home.png
+│ ├── course.png
+│ ├── login.png
+│ ├── logout.png
+│ ├── register.png
+│ ├── result.png
+│ ├── student.png
+│ ├── view-student.png
+
+└── rms.db      # SQLite database (created automatically)
+
 ```
 
 ## 🚀 Installation & Setup
